@@ -3,7 +3,7 @@ name: Gradle unit test
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
