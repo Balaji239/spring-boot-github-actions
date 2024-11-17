@@ -7,7 +7,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringBootGithubActionsApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testPrintMessage() {
+		System.out.println("******************");
+		System.out.println("Running unit test");
+		System.out.println("******************");
 	}
 
 }
